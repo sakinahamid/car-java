@@ -1,0 +1,13 @@
+Chosen feature: 
+A search feature based on car maker, year of manufacture, price range 
+and a search based on all three factors.
+
+How does it work:
+A feature called "Search Cars" in the drawer menu of MainActivity will start a new activity (1)
+that contains the search feature, where user have the choice to search based on the
+car maker only, the year only, the price range only or with all three. After user has chosen
+what type of search they want, the activity will then start another new activity (2) that displays
+the result of the query requested by the user in a card layout implemented using recycler view.
+Activities (1) and (2) both have a floating action button with an arrow icon that when pressed will
+redirect user to the previous activity, and activity (1) has a floating action button with a trash
+icon that will clear all the text in all search fields.
